@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-promise-timeout",
+  "version": "1.0.0",
+  "description": "Automatically resolve or reject promises after a certain time.",
+  "main": "index.js",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcher-in-the-try/nodejs-promise-timeout.js.git"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+	'promises',
+	'promise',
+	'bluebird',
+	'timeout',
+	'promise-timeout',
+	'timeout-promise'
+  ],
+  "author": "Anton Ivanov <anton@ivanov.hk>",
+  "license": "Unlicense"
+}
