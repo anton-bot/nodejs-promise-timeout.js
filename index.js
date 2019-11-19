@@ -21,7 +21,7 @@ class TimeoutPromise {
       callback(resolve, reject);
     });
 
-    if (actionAfterTimeout === 'resolve') {
+    if (actionAfterTimeout) {
       setTimeout(() => self.resolveFunction(`Timeout after ${delay} ms.`), delay);
     } else {
       setTimeout(() => self.rejectFunction(`Timeout after ${delay} ms.`), delay);
